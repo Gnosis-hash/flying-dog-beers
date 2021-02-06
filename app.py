@@ -7,8 +7,8 @@ import plotly.graph_objs as go
 beers=['Pizza', 'Pie', 'Soup', 'Sandwich']
 ibu_values=[35, 60, 85, 75]
 abv_values=[5.4, 7.1, 9.2, 4.3]
-color1='red'
-color2='blue'
+color1='lightblue'
+color2='darkblue'
 mytitle='Food Saiety'
 tabtitle='Food!'
 myheading='Food graph'
