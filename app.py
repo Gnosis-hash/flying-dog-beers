@@ -14,8 +14,6 @@ tabtitle='Food!'
 myheading='Food graph'
 label1='Cost'
 label2='Benefit'
-githublink='https://github.com/austinlasseter/flying-dog-beers'
-sourceurl='https://www.flyingdog.com/beers/'
 
 ########### Set up the chart
 bitterness = go.Bar(
@@ -53,9 +51,8 @@ app.layout = html.Div(children=[
         id='flyingdog',
         figure=beer_fig
     ),
-    html.A('Code on Github', href=githublink),
     html.Br(),
-    html.A('Data Source', href=sourceurl),
+
     ]
 )
 
